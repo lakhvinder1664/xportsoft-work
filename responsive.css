@@ -256,4 +256,8 @@
         line-height: 40px;
         text-align: center;
     }
+    .box-text-button-holder {
+    padding: 13px;
+    text-align: center;
+  }
 }
