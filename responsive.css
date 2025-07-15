@@ -1,0 +1,231 @@
+/* ------------------------- */
+/* Responsive: Extra Small   */
+/* ------------------------- */
+/* 1199px */
+@media (max-width: 1200px){
+  .box-right-text h3 {
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .six-cards {
+    border-radius: 20px;
+     margin-top: 0px;
+    padding: 12px;
+}
+  .six-cards p {
+    color: #7a7d9c;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .six-cards h4 {
+    /* margin: 8px 19px; */
+    text-align: center;
+    line-height: 30px;
+    color: #132547;
+    font-weight: 700;
+    font-size: 21px;
+  }
+}
+/* 1024 */
+
+@media (max-width: 1025px){
+  .sub-heading {                         
+    font-size: 18px;
+    margin-left: 60px;
+    font-weight: 700;
+    line-height: normal;
+    color: #5e6a75;
+}
+  .first-big-text h3 {
+    padding: 18px 0 40px 0;
+    color: #132547;
+    font-weight: 600;
+    margin-left: 60px;
+    font-size: 48px;
+}
+  .for-heading h3 {
+    font-size: 42px;
+}                                          
+  .second-heading h1 {
+    margin: 30px 0 -38px 0;
+    font-size: 43px;                
+    text-align: center;
+}
+.second-heading span {
+    font-weight: 600;
+    font-size: 37px;
+}
+.boxt-text h3 {
+    font-size: 30px;                   
+}
+.boxt-text p {
+    font-weight: 500;
+    font-size: 20px;
+}                      
+.box-right-text h3{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+}                                
+.fiv-sec-head h3 {
+    font-size: 40px;
+}
+.for-left-and-right-text h3 {
+    color: #132547;
+    font-size: 40px;
+}
+.for-left-and-right-text h4 {
+    color: #7a7d9c;
+    font-size: 24px;
+}
+.for-left-and-right-text p {
+    color: #7a7d9c;
+    font-size: 16px;
+}
+.sixth-sec-head h3 {
+    font-weight: 700;
+    color: #132547;
+    font-size: 50px;
+}
+}
+
+/* 991px */
+
+@media (max-width:992px){
+  .boxt-text h3 {              
+    font-size: 40px;
+}
+.box-right-text h3 {       
+    font-size: 38px;
+}
+.boxt-text p {
+    font-weight: 500;
+    font-size: 16px;
+}
+  .six-cards h4 {
+        /* margin: 8px 19px; */
+        text-align: center;
+        line-height: 30px;
+        color: #132547;
+        font-weight: 700;
+        font-size: 25px;
+    }
+}
+                      
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin: 0;
+    text-align: center;
+  }
+
+  .navbar-nav li {
+    display: inline-block;
+    float: none;
+  }
+
+  .first-big-text {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .sub-heading, .first-big-text h3, .get-started {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  .first-big-text h3 {
+    font-size: 32px;
+  }
+
+  .sub-heading {
+    font-size: 18px;
+  }
+
+  .get-started p {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .for-heading h3,
+  .fiv-sec-head h3,
+  .sixth-sec-head h3 {
+    font-size: 32px;
+  }
+.six-cards {
+  min-height: 330px;
+  margin-bottom: 30px;
+}
+.small-image img {
+  width: 40px;
+}
+    
+  .six-cards p {
+    font-size: 16px;
+  }
+
+  .second-heading h1,
+  .box-right-text h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .four-card-bg {
+    padding: 10px;
+  }
+
+  .boxt-text h3 {
+    font-size: 36px;
+  }
+
+  .boxt-text p {
+    font-size: 18px;
+  }
+
+   .for-left-and-right-text {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100% !important;
+  }
+
+  .box-text-button,
+  .bottom-last {
+    font-size: 18px;
+    padding: 10px 25px;
+  }
+
+  .two-card-center {
+    flex-direction: column;
+  }
+
+  .card-content {
+    text-align: center;
+  }
+
+  .card-bottom-img-para {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+ .eight-cards {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+
+/* ------------------------- */
+/* Responsive: Small Devices */
+/* ------------------------- */
+@media (min-width:360px) {
+  .for-img-left img {
+    width: 100%;
+  }
+  .eight-cards h3 {
+    font-size: 16px;
+}
+}
+/* ------------------------- */
+/* Responsive: Medium Devices */
+/* ------------------------- */
+
+
