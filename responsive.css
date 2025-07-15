@@ -149,7 +149,7 @@
   .for-heading h3,
   .fiv-sec-head h3,
   .sixth-sec-head h3 {
-    font-size: 32px;
+    font-size: 25px;
   }
 .six-cards {
   min-height: 330px;
@@ -203,7 +203,7 @@
   }
 
   .card-bottom-img-para {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 5px;
   }
 }
@@ -260,4 +260,82 @@
     padding: 13px;
     text-align: center;
   }
+  .fiv-sec-head {
+    margin: 25px 0px;
+    text-align: center;
+  }
+  
+    .for-left-and-right-text {
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100% !important;
+    }
+    .for-left-and-right-text h3 {
+        font-weight: 700;
+        color: #132547;
+        font-size: 25px;
+    }
+    .for-left-and-right-text p {
+        color: #7a7d9c;
+        font-size: 14px;
+    }
+    .sixth-sec-head {
+    margin: 0;
+    text-align: center;
+  }
+  .card-img {
+    text-align: left;
+    margin: 14px;
+  }
+    .card-content {
+        margin: 20px;
+        text-align: center;
+    }
+    .card-bottom-img img {
+    margin-top: 10px;
+    border-radius: 40px;
+    width: 50px;
+}
+  .card-bottom-para h3 {
+    font-size: 15px;
+  }
+  .card-bottom-para p {
+    text-align: left;
+    font-size: 13px;
+}
+    .sub-heading {
+        font-size: 16px;
+    }
+    .first-big-text h3 {
+        font-size: 28px;
+        padding: 0px 0 10px 0;
+    }
+        .first-big-text {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .get-started p {
+        font-size: 10px;
+        padding: 6px 15px;
+    }
+    .for-heading h3, .fiv-sec-head h3, .sixth-sec-head h3 {
+        font-size: 24px;
+    }
+    .six-cards h4 {
+        font-size: 21px;
+     }
+        
+    .six-cards {
+        min-height: 0;
+        margin-bottom: 0;
+    }
+    .four-second-2 {
+    padding-bottom: 36px;
+}
+    section.four {
+    padding: 15px 0;
+    background-color: aliceblue;
+}
 }
