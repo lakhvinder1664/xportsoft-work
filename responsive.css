@@ -221,11 +221,39 @@
     width: 100%;
   }
   .eight-cards h3 {
-    font-size: 16px;
+    font-size: 15px;
 }
+  
+  .four-card-bg {
+        margin-top: 50px;
+        padding: 10px;
+   }
+   
+    .second-heading span {
+        font-weight: 600;
+        font-size: 27px;
+    }
+    
+    .second-heading h1, .box-right-text h3 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    
+    .box-text-button, .bottom-last {
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    
+    .boxt-text h3 {
+        font-size: 30px;
+    }
+    .boxt-text p {
+        width: 79%;
+        font-size: 14px;
+    }
+    .box-right-text h3 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
 }
-/* ------------------------- */
-/* Responsive: Medium Devices */
-/* ------------------------- */
-
-
